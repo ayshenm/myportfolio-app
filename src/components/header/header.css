@@ -1,0 +1,120 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: var(--color-gray);
+}
+
+.nav {
+    height: calc(var(--header-height) + 1.5rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.nav_logo,
+.toggle_nav {
+    color: var(--color-light);
+    font-weight: var(--font-medium);
+}
+
+.nav_list {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.nav_link {
+    color: var(--color-light);
+    font-weight: var(--font-medium);
+    transition: .3s;
+}
+
+.nav_close,
+.toggle_nav {
+    display: none;
+}
+.toggle_nav{
+    cursor: pointer;
+}
+
+/*Active link*/
+
+.active-link,
+.nav_link:hover {
+    color: var(--color-dark);
+}
+
+.nav_logo,
+.toggle_nav{
+    font-size:2rem;
+}
+
+/*==============BREAKPOINTS===============================*/
+/*for medium devices*/
+@media screen and (max-width: 768px) {
+    .header {
+        top: initial;
+        bottom: 0;
+    }
+
+    .nav {
+        height: var(--header-height);
+    }
+
+    .nav_menu {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        bottom: -100%;
+        background-color: var(--color-gray);
+        padding: 2rem 1.5rem 4rem;
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 1.5rem 1.5rem 0 0;
+        transition: .3s;
+    }
+
+    /*  SHOW MENU */
+    .show_menu{
+        bottom: 0;
+    }
+    .nav_list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .nav_list .nav_item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav_close{
+        position: absolute;
+        right: 1.3rem;
+        bottom: 0.5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--color-dark);
+    }
+    .nav_close:hover{
+        color: var(--color-light);
+    }
+    .nav_close,
+    .toggle_nav
+     {
+        display: block;
+    }
+}
+
+/*for small  devices*/
+@media  screen and (max-width: 350px) {
+    .nav_menu{
+        padding: 2rem 0.25rem 4rem;
+    }
+    .nav_list{
+        column-gap: 0;
+    }
+
+}
