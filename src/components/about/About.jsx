@@ -2,9 +2,10 @@ import React from 'react';
 import './about.css';
 import AboutImg from "../../assets/image/portf2.jpeg";
 import Info from './Info';
-import { FiFile } from "react-icons/fi";
 import './about.css';
-/*cv*/
+import CvImg from '../../assets/cv/cv.pdf';
+import { GrLinkBottom } from "react-icons/gr"
+
 
 const About = () => {
   return (
@@ -19,10 +20,12 @@ const About = () => {
           <Info />
 
           <p className="about_description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aut praesentium sapiente laudantium laborum nesciunt nobis nulla a, fugit atque deleniti, molestiae sint doloremque soluta.</p>
+            Frontend web developer, I create web pages with UI/UX user interface, I love my job and enjoy what I do
 
-          <a download="" href="{*/cv qoyacam/*}" className='button button--flex'>Download CV
-            <FiFile />
+          </p>
+
+          <a download="" href={CvImg} className='button button--flex'>Download CV
+            <GrLinkBottom />
           </a>
         </div>
       </div>

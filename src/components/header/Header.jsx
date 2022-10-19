@@ -22,16 +22,16 @@ const Header = () => {
                        <a href ="" className="nav_link active-link">Home</a>
                     </li>
                     <li className="nav_item">
-                       <a href ="" className="nav_link">Portfolio</a>
+                       <a href ="" className="nav_link"> About</a>
                     </li>
                     <li className="nav_item">
                        <a href ="" className="nav_link">Skills</a>
                     </li>
                     <li className="nav_item">
-                       <a href ="" className="nav_link">About</a>
+                       <a href ="" className="nav_link">Services</a>
                     </li>
                     <li className="nav_item">
-                       <a href ="" className="nav_link">Services</a>
+                       <a href ="" className="nav_link">Portfolio</a>
                     </li>
                     <li className="nav_item">
                        <a href ="" className="nav_link">Contact</a>
