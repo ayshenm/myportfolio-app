@@ -9,7 +9,6 @@
     border: 1px solid var(--color-primary);
     padding: 4rem 0rem  2.5rem;
     background: var(--color-primary);
-    border-radius: 15px 50px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
