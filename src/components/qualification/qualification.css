@@ -112,5 +112,8 @@ qualification_active{
     .qualification_data{
         gap: 0.5rem;
     }
+    .qualification_button{
+        font-size: var(--small-font-size);
+    }
    
   }
