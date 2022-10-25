@@ -19,22 +19,22 @@ const Header = () => {
             <div className={Toggle ? "nav_menu show_menu" : "nav_menu"}>
                 <ul className="nav_list grid">
                     <li className="nav_item">
-                       <a href ="" className="nav_link active-link">Home</a>
+                       <a href ="#home" className="nav_link active-link">Home</a>
                     </li>
                     <li className="nav_item">
-                       <a href ="" className="nav_link"> About</a>
+                       <a href ="#about" className="nav_link"> About</a>
                     </li>
                     <li className="nav_item">
-                       <a href ="" className="nav_link">Skills</a>
+                       <a href ="#skill" className="nav_link">Skills</a>
                     </li>
                     <li className="nav_item">
-                       <a href ="" className="nav_link">Services</a>
+                       <a href ="#services" className="nav_link">Services</a>
                     </li>
                     <li className="nav_item">
-                       <a href ="" className="nav_link">Portfolio</a>
+                       <a href="#project" className="nav_link">Portfolio</a>
                     </li>
                     <li className="nav_item">
-                       <a href ="" className="nav_link">Contact</a>
+                       <a href ="#contact" className="nav_link">Contact</a>
                     </li>
                 </ul>
                 <div className="nav_close" onClick={() => showMenu(!Toggle)}>

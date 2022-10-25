@@ -52,7 +52,7 @@
 
 
 .footer_social_icon:hover{
-    color: var(--color-dark);
+    color: var(--color-primary);
 }
 
 .footer_copy{
