@@ -6,16 +6,16 @@ const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm(
-      'service_byhbkbh', 
-      'template_nrepzox', 
-      form.current,
-      'VKXyGbne1zi-25aen'
-      )
-      e.target.reset()
-        
+        e.preventDefault();
+
+        emailjs.sendForm(
+            'service_byhbkbh',
+            'template_nrepzox',
+            form.current,
+            'VKXyGbne1zi-25aen'
+        )
+        e.target.reset()
+
     };
     return (
         <section className="contact section" id="contact">
@@ -29,7 +29,7 @@ const Contact = () => {
 
                     <div className="contact_info">
                         <div className="contact_card">
-                        <i className='bx bx-mail-send contact_card-icon'></i>
+                            <i className='bx bx-mail-send contact_card-icon'></i>
 
                             <h3 className="contact_card-title">E-mail</h3>
                             <span className="contact_card-data">ayshen.mirzeyeva.96@inbox.ru</span>
@@ -39,7 +39,7 @@ const Contact = () => {
                         </div>
 
                         <div className="contact_card">
-                        <i className='bx bxl-whatsapp contact_card-icon'></i>
+                            <i className='bx bxl-whatsapp contact_card-icon'></i>
 
                             <h3 className="contact_card-title">Whatsapp</h3>
                             <span className="contact_card-data">+994 55 543 49 72</span>
@@ -50,13 +50,13 @@ const Contact = () => {
                         </div>
 
                         <div className="contact_card">
-                        <i className='bx bxl-messenger contact_card-icon'></i>
+                            <i className='bx bxl-messenger contact_card-icon'></i>
 
                             <h3 className="contact_card-title">Messenger</h3>
                             <span className="contact_card-data">Айшен Мирзайева</span>
 
                             <a href="https://www.facebook.com/melan.xolik.39/" className="contact_button"> Write me
-                            <i className='bx bx-right-arrow-alt contact_button-icon'></i>
+                                <i className='bx bx-right-arrow-alt contact_button-icon'></i>
                             </a>
 
                         </div>
