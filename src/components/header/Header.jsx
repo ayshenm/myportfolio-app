@@ -6,8 +6,16 @@ import {AiOutlineWindows} from "react-icons/ai";
 import { useState } from 'react';
 
 const Header = () => {
+   /*==============Change Background Header===============================*/
+   window.addEventListener("scroll", function () {
+      const header = document.querySelector(".header");
+      if (this.scrollY >= 80) header.classList.add
+      ("header-scroll");
+      else header.classList.remove("header-scroll");
+    });
    /*==============TOGGLE MENU===============================*/
    const[Toggle,showMenu] = useState(false);
+   const[activeNav, setActiveNav] = useState("#home")
 
   return (
     <header className="header">
@@ -19,22 +27,34 @@ const Header = () => {
             <div className={Toggle ? "nav_menu show_menu" : "nav_menu"}>
                 <ul className="nav_list grid">
                     <li className="nav_item">
-                       <a href ="#home" className="nav_link active-link">Home</a>
+                       <a href ="#home" onClick={() =>
+                     setActiveNav('#home')} className={activeNav === "#home" ? "nav_link active-link" :
+                     "nav_link"}>Home</a>
                     </li>
                     <li className="nav_item">
-                       <a href ="#about" className="nav_link"> About</a>
+                       <a href ="#about"onClick={() =>
+                     setActiveNav('#about')} className={activeNav === "#about" ? "nav_link active-link" :
+                     "nav_link"}> About</a>
                     </li>
                     <li className="nav_item">
-                       <a href ="#skill" className="nav_link">Skills</a>
+                       <a href ="#skill" onClick={() =>
+                     setActiveNav('#skill')} className={activeNav === "#skill" ? "nav_link active-link" :
+                     "nav_link"}>Skills</a>
                     </li>
                     <li className="nav_item">
-                       <a href ="#services" className="nav_link">Services</a>
+                       <a href ="#services" onClick={() =>
+                     setActiveNav('#services')} className={activeNav === "#services" ? "nav_link active-link" :
+                     "nav_link"}>Services</a>
                     </li>
                     <li className="nav_item">
-                       <a href="#project" className="nav_link">Portfolio</a>
+                       <a href="#project" onClick={() =>
+                     setActiveNav('#project')} className={activeNav === "#project" ? "nav_link active-link" :
+                     "nav_link"}>Portfolio</a>
                     </li>
                     <li className="nav_item">
-                       <a href ="#contact" className="nav_link">Contact</a>
+                       <a href ="#contact" onClick={() =>
+                     setActiveNav('#contact')} className={activeNav === "#contact" ? "nav_link active-link" :
+                     "nav_link"}>Contact</a>
                     </li>
                 </ul>
                 <div className="nav_close" onClick={() => showMenu(!Toggle)}>

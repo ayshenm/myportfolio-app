@@ -52,6 +52,13 @@
     font-size:2rem;
 }
 
+/* Change Header background*/
+
+.header-scroll{
+    box-shadow: 0 4px 4px rgba(255, 255, 255, 0.15);
+
+}
+
 /*==============BREAKPOINTS===============================*/
 /*for medium devices*/
 @media screen and (max-width: 768px) {

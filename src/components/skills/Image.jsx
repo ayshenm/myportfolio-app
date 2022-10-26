@@ -1,7 +1,7 @@
 import React from 'react';
 import  BackImg from '../../assets/image/backgr.jpg';
 
-const Frontend = () => {
+const Image = () => {
     return (
         <div className='backimg' style={{display: "flex", justifyContent:'center'}}>
         <img src={BackImg} alt='' className='about_img' />
@@ -9,4 +9,4 @@ const Frontend = () => {
     )
 }
 
-export default Frontend
+export default Image

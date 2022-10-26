@@ -1,7 +1,7 @@
 import React from 'react';
 import './skill.css';
-import Frontend from './Frontend';
-import Backend from './Backend';
+import Frontend from './Image';
+import Backend from './SkillData';
 
 const Skills = () => {
   return (
