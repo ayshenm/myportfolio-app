@@ -20,6 +20,9 @@
     color: var(--color-light);
     font-weight: var(--font-medium);
 }
+.nav_logo{
+    width: 5%;
+}
 
 .nav_list {
     display: flex;

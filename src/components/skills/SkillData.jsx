@@ -28,7 +28,7 @@ const SkillData = () => {
                     <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills_name">Javascript</h3>
-                        <span className="skills_level">75%</span>
+                        <span className="skills_level">65%</span>
                     </div>
                     </div>
 
@@ -52,14 +52,14 @@ const SkillData = () => {
                     <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills_name">Redux</h3>
-                        <span className="skills_level">60%</span>
+                        <span className="skills_level">50%</span>
                     </div>
                     </div>
                     <div className="skills_data">
                     <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills_name">Sass/Scss</h3>
-                        <span className="skills_level">40%</span>
+                        <span className="skills_level">80%</span>
                     </div>
                     </div>
                     <div className="skills_data">

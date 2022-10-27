@@ -1,14 +1,14 @@
 import React from 'react';
 import './footer.css';
-import { IoCodeSlashSharp } from "react-icons/io5";
+import logoImg from '../../assets/logo.png';
 import { GrFacebookOption,GrGithub,GrLinkedinOption,GrInstagram } from "react-icons/gr";
 
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer_container container">
-                <a href='index.html' className='nav_logo_icon'>
-                    <IoCodeSlashSharp />
+                <a href='index.html' className='nav_logo_footer'>
+                <img src={logoImg} alt=''/>
                 </a>
 
                 <ul className="footer_list">

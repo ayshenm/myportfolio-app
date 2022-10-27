@@ -1,9 +1,9 @@
 import React from 'react';
 import './header.css';
-import { IoCodeSlashSharp } from "react-icons/io5";
 import {AiOutlineClose} from "react-icons/ai";
 import {AiOutlineWindows} from "react-icons/ai";
 import { useState } from 'react';
+import logoImg from '../../assets/logo.png';
 
 const Header = () => {
    /*==============Change Background Header===============================*/
@@ -21,7 +21,7 @@ const Header = () => {
     <header className="header">
         <nav className="nav container">
             <a href='index.html' className='nav_logo'>
-            <IoCodeSlashSharp/>
+            <img src={logoImg} alt=''/>
             </a>
 
             <div className={Toggle ? "nav_menu show_menu" : "nav_menu"}>
