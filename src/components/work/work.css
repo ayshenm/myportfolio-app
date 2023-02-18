@@ -141,6 +141,10 @@ button:hover{
         padding: 0.35rem 0.20rem !important;
         font-size: var(--small-font-size);  
     }
+    .active-work{
+        padding: 0.35rem 0.20rem !important;
+        font-size: var(--small-font-size); 
+    }
   }
   
   /*for small  devices*/
