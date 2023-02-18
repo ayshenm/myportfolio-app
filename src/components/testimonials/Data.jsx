@@ -7,23 +7,23 @@ export const Data = [
     {
         id:1,
         image:Image2,
-        title:"Simona Si",
+        title:"Arzu Rahim",
         description:
-        "A really good job, all aspects of the project were followed step by step and with good results."
+        "Aisha Mirza is no ordinary 27 year old. In one summer, she taught herself to code and got a job."
     },
 
     {
         id:2,
         image:Image1,
-        title: "Paul Lord",
+        title: "Hasan Bulud",
         description:
-        "A really good job, all aspects of the project were followed step by step and with good results."
+        "I wanted, she thought and offered more than I wanted.A really good job Thank you very much."
     },
 
     {
         id:3,
         image:Image3,
-        title:"Alberra Santos",
+        title:"Rahima Shabanova",
         description:
         "A really good job, all aspects of the project were followed step by step and with good results."
     }

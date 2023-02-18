@@ -33,14 +33,14 @@ const Footer = () => {
                     <a href='https://github.com/ayshenm' className="footer_social_icon" target="blank">
                         <GrGithub />
                     </a>
-                    <a href='https://www.linkedin.com/in/ayisha-mirza-462077167/' className="footer_social_icon" target="blank">
+                    <a href='https://www.linkedin.com/in/ayshen-mirzayeva-462077167/' className="footer_social_icon" target="blank">
                         <GrLinkedinOption />
                     </a>
                     <a href='https://www.instagram.com/_ayisha_13/' className="footer_social_icon" target="blank">
                         <GrInstagram />
                     </a>
                 </div>
-                <span className="footer_copy">&#169; <a href='https://www.linkedin.com/in/ayisha-mirza-462077167/'>Ayisha Mirza</a> All rigths reserved</span>
+                <span className="footer_copy">&#169; <a href='https://www.linkedin.com/in/ayshen-mirzayeva-462077167/'>Ayisha Mirza</a> All rigths reserved</span>
             </div>
         </footer>
     )

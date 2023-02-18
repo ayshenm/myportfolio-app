@@ -3,7 +3,7 @@ import './about.css';
 import AboutImg from "../../assets/image/portf2.jpeg";
 import Info from './Info';
 import './about.css';
-import CvImg from '../../assets/cv/cv.pdf';
+import CvImg from '../../assets/cv/Cv.pdf';
 import { GrLinkBottom } from "react-icons/gr"
 
 
