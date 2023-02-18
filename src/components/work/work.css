@@ -132,13 +132,13 @@ button:hover{
     }
 
     .work_item{
-        
         padding: 0.10rem 0.15rem !important;
         font-size: var(--small-font-size);
         
     }
     button{
-        padding: 0.40rem 0.15rem;
+        display: flex;
+        padding: 0.35rem 0.20rem !important;
         font-size: var(--small-font-size);  
     }
   }
@@ -155,4 +155,5 @@ button:hover{
         width: 80px;
 
     }
+    
   }
