@@ -2,8 +2,7 @@ button{
     padding: 0.60rem 0.75rem;
     font-weight: var(--font-medium);
     border-radius: 0.5rem;
-    color: #fff;
-    
+    color: #fff;   
 }
 
 button:hover{
@@ -127,6 +126,21 @@ button:hover{
     .work_img{
         width: 100%;
     }
+    .work_filter{
+        column-gap: 0.25rem !important;
+        font-size: var(--small-font-size) !important;
+    }
+
+    .work_item{
+        
+        padding: 0.10rem 0.15rem !important;
+        font-size: var(--small-font-size);
+        
+    }
+    button{
+        padding: 0.40rem 0.15rem;
+        font-size: var(--small-font-size);  
+    }
   }
   
   /*for small  devices*/
@@ -137,5 +151,8 @@ button:hover{
 
     .work_filter{
         column-gap: 0.25rem;
+        font-size: var(--small-font-size);
+        width: 80px;
+
     }
   }
