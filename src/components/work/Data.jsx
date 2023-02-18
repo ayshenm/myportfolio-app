@@ -1,6 +1,5 @@
 import leoSpa from '../../assets/leo.jpg';
 import appiLab from '../../assets/appiLab.jpg';
-import reBank from '../../assets/rebank.jpg';
 import azRose from '../../assets/azRose.jpg';
 import iphone from '../../assets/iphone.jpg';
 import calculator from '../../assets/calculator.jpg';
@@ -27,15 +26,7 @@ export const projectData = [
         link:'https://ayshenm.github.io/appilab/',
 
     },
-    {
-        id:3,
-        image:reBank,
-        title:' Re Bank',
-        description:'responsive',
-        category:'bootstrap projects',
-        link:'https://ayshenm.github.io/DollaWebisite.github.io/',
-
-    },
+    
      {
         id:4,
         image: azRose,
